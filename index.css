@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: lavender
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 1em;
+    /* display: flex;
+    flex-direction: column */
+}
+
+form {
+    margin: 0 auto 0 1em;
+    display: flex;
+    justify-content: space-around
+}
+
+.colors-container {
+    padding: 1em;
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.color-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.color-display {
+    height: 80vh;
+    width: 100px;
+}
+
+.color-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bolder;
+    color: olive
+}
